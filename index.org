@@ -1,11 +1,9 @@
 #+TITLE: How To Dockerizing a Ruby on Rails Application
 #+OPTIONS: author:nil date:nil timestamp:nil
+#+EXPORT_FILE_NAME: build/index.html
 
-#+begin_verse
-Work in progress
-#+end_verse
 
-#+begin_src dockerfile :tangle Dockerfile
+#+begin_src dockerfile :tangle build/Dockerfile
 FROM ruby:3.1.2-slim-bullseye AS builder
 
 WORKDIR /app
